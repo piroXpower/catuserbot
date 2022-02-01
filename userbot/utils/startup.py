@@ -206,9 +206,9 @@ async def verifyLoggerGroup():
                 + str(e)
             )
     else:
-        descript = "Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost.)"
+        descript = "Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost. Powered By :- @RaichuOfficial"
         _, groupid = await create_supergroup(
-            "CatUserbot BotLog Group", catub, Config.TG_BOT_USERNAME, descript
+            "𝐑𝐚𝐢𝐜𝐡𝐮 𝐋𝐨𝐠𝐠𝐞𝐫", catub, Config.TG_BOT_USERNAME, descript
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
